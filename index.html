@@ -3,64 +3,248 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YDS Kelime &amp; Soru Bankası | YDS Vocabulary &amp; Exam Assistant</title>
+    <title>YDS Kelime &amp; Soru Bankası | YDS Vocabulary &amp; 4,224-Question Exam Bank</title>
+    <meta name="description" content="Master 3,301 essential YDS vocabulary words and practice with 4,224 real and original YDS exam questions, 180-minute timed exams, and instant solutions on iOS.">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">YDS Kelime &amp; Soru Bankası</div>
-            <ul>
+    <header class="site-header">
+        <nav class="nav-pill">
+            <a href="index.html" class="brand">
+                <span class="brand-badge">YDS</span>
+                <span>YDS Kelime &amp; Soru Bankası</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#question-bank">Question Bank</a></li>
                 <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="https://apps.apple.com/tr/app/id6740161440" target="_blank" rel="noopener" class="nav-cta">App Store</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="readme-style">
-        <h1>YDS Kelime &amp; Soru Bankası</h1>
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div>
+                <span class="hero-eyebrow">iOS • 100% Offline • YDS Exam Assistant</span>
+                <h1 class="hero-title">YDS Kelime &amp; Soru Bankası</h1>
+                <p class="hero-subtitle">
+                    Master 3,301 high-frequency YDS exam words with swipeable flashcards and Leitner spaced repetition, then test yourself across 4,224 official &amp; original YDS questions with timed 180-minute mock exams.
+                </p>
+                <div class="hero-actions">
+                    <a href="https://apps.apple.com/tr/app/id6740161440" target="_blank" rel="noopener" class="btn-primary">
+                        <span>Download on the App Store</span>
+                        <span>→</span>
+                    </a>
+                    <a href="#question-bank" class="btn-secondary">
+                        <span>Explore Question Bank</span>
+                    </a>
+                </div>
+            </div>
 
-        <p>YDS Kelime &amp; Soru Bankası is a comprehensive mobile application designed specifically for YDS exam candidates. It combines 3,301 essential exam vocabulary words with a full 4,224-question YDS Question Bank, serving as your all-in-one English vocabulary and exam preparation assistant.</p>
+            <!-- Live CSS Card Preview matching the app's exact UI -->
+            <div class="card-stack-showcase" aria-label="Interactive YDS Question Card Preview">
+                <div class="stack-back-card"></div>
+                <div class="stack-mid-card"></div>
+                <div class="stack-front-card">
+                    <div class="preview-badges">
+                        <span class="chip-yellow">Question 14 / 80</span>
+                        <span class="chip-navy">Vocabulary</span>
+                        <span class="chip-yellow">2025 YDS/1</span>
+                    </div>
+                    <p class="preview-question">
+                        Attaining ---- in the current job is a basic career strategy, given that organisations make promotion decisions on an employee’s present performance.
+                    </p>
+                    <div class="preview-options">
+                        <div class="preview-opt">
+                            <span class="opt-letter">A</span>
+                            <span>assurance</span>
+                        </div>
+                        <div class="preview-opt correct">
+                            <span class="opt-letter">B</span>
+                            <span>competence &nbsp;✓ Correct Choice</span>
+                        </div>
+                        <div class="preview-opt wrong">
+                            <span class="opt-letter">C</span>
+                            <span>recession &nbsp;✕ Your Choice</span>
+                        </div>
+                        <div class="preview-opt">
+                            <span class="opt-letter">D</span>
+                            <span>insurance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <h2 id="features">Features</h2>
-        <ul>
-            <li><strong>4,224-Question YDS Question Bank:</strong> Practice with 15 official Past YDS Exams (2018–2025), 14 full-length 80-question Practice Exams, 11 topic categories, and targeted drills</li>
-            <li><strong>180-Minute Exam &amp; Instant Practice Modes:</strong> Simulate real timed 180-minute exams with detailed score and category breakdowns, or solve with instant feedback, solutions, and vocabulary glossaries</li>
-            <li><strong>Interactive Flashcards (3,301 Words):</strong> Study English-Turkish exam vocabulary with swipeable flashcards and Leitner spaced repetition</li>
-            <li><strong>Multiple Learning Modes:</strong> Quiz mode, word matching games, searchable Library, and saved favorites</li>
-            <li><strong>Smart Notifications:</strong> Customizable reminders to maintain your study schedule and daily streak</li>
-            <li><strong>Progress Tracking:</strong> Monitor your vocabulary mastery and question bank accuracy with detailed statistics</li>
-            <li><strong>100% Offline Access:</strong> Built-in SQLite question bank and local MMKV progress storage let you study anytime, anywhere without an internet connection</li>
-        </ul>
+        <!-- Overall Content Numbers -->
+        <section class="stats-banner">
+            <div class="stats-banner-header">
+                <span class="stats-banner-title">All-in-One YDS Preparation</span>
+                <span class="stats-banner-sub">Built for iPhone &amp; iPad • Works Offline</span>
+            </div>
+            <div class="stats-grid">
+                <div class="mini-stat">
+                    <div class="mini-stat-value">4,224</div>
+                    <div class="mini-stat-label">YDS Questions</div>
+                </div>
+                <div class="mini-stat">
+                    <div class="mini-stat-value">3,301</div>
+                    <div class="mini-stat-label">Exam Words</div>
+                </div>
+                <div class="mini-stat">
+                    <div class="mini-stat-value">29</div>
+                    <div class="mini-stat-label">Full 80-Q Exams</div>
+                </div>
+                <div class="mini-stat">
+                    <div class="mini-stat-value">11</div>
+                    <div class="mini-stat-label">Question Categories</div>
+                </div>
+            </div>
+        </section>
 
-        <h2 id="tech-stack">Tech Stack</h2>
-        <ul>
-            <li><strong>React Native 0.88 &amp; Expo SDK 58:</strong> Modern New Architecture mobile application with React Compiler</li>
-            <li><strong>Expo SQLite:</strong> Pre-bundled, deduplicated offline database for 4,224 YDS questions and reading passages</li>
-            <li><strong>MMKV:</strong> Ultra-fast local storage for vocabulary progress, exam attempts, and bookmarks</li>
-            <li><strong>Expo Notifications:</strong> Smart study reminder scheduling</li>
-            <li><strong>Expo Router:</strong> File-based navigation within the app</li>
-            <li><strong>React Native Reanimated 4 &amp; Gesture Handler 3:</strong> 60fps UI-thread animations and gestures</li>
-        </ul>
+        <!-- Vocabulary Features -->
+        <div class="section-header" id="features">
+            <h2 class="section-title">Vocabulary &amp; Smart Study Modes</h2>
+            <p class="section-subtitle">Five dedicated tabs designed with smooth animations, native haptics, and instant pronunciation</p>
+        </div>
 
-        <h2>Target Audience</h2>
-        <ul>
-            <li>YDS Exam Candidates</li>
-            <li>Turkish Speakers Learning English</li>
-            <li>Self-Paced Learners</li>
-            <li>Busy Professionals</li>
-        </ul>
+        <section class="cards-grid">
+            <article class="app-card">
+                <div class="app-card-top">
+                    <span class="icon-box">🗂️</span>
+                    <h3>3D Swipe Flashcards</h3>
+                </div>
+                <p>Tap to flip between English and Turkish meanings with English voice pronunciation. Swipe right for "I know it" or left for "Still learning" to feed the Leitner repetition system.</p>
+                <div class="app-card-tags">
+                    <span class="chip-yellow">3,301 Words</span>
+                    <span class="chip-navy">Voice TTS</span>
+                </div>
+            </article>
 
-        <h2>More Apps</h2>
-        <ul>
-            <li><strong>KPSS Soru Bankası &amp; Test 2026:</strong> <a href="https://apps.apple.com/tr/app/kpss-soru-bankas%C4%B1-test-2026/id6832932397" target="_blank">Download on the App Store</a></li>
-        </ul>
+            <article class="app-card">
+                <div class="app-card-top">
+                    <span class="icon-box">🎓</span>
+                    <h3>Multiple-Choice Quiz Mode</h3>
+                </div>
+                <p>Test your recall with 4-option vocabulary quizzes automatically biased toward words you have not yet mastered, complete with audio and haptic feedback.</p>
+                <div class="app-card-tags">
+                    <span class="chip-yellow">Adaptive Pool</span>
+                    <span class="chip-navy">Instant Feedback</span>
+                </div>
+            </article>
 
-        <h2>Reach Me</h2>
-        <ul>
-            <li><strong>Mail:</strong> <a href="mailto:sevinc.aeren@gmail.com">sevinc.aeren@gmail.com</a></li>
-            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/alierensevinc" target="_blank">alierensevinc</a></li>
-            <li><strong>GitHub:</strong> <a href="https://github.com/alierensevinc" target="_blank">alierensevinc</a></li>
-        </ul>
+            <article class="app-card">
+                <div class="app-card-top">
+                    <span class="icon-box">🧩</span>
+                    <h3>Pair Matching Mode</h3>
+                </div>
+                <p>Match 5 English words with their Turkish counterparts against the board to build fast visual recognition and reinforce your daily study streak.</p>
+                <div class="app-card-tags">
+                    <span class="chip-yellow">Fast Recall</span>
+                    <span class="chip-navy">Daily Streak</span>
+                </div>
+            </article>
+
+            <article class="app-card">
+                <div class="app-card-top">
+                    <span class="icon-box">📚</span>
+                    <h3>Searchable Word Library</h3>
+                </div>
+                <p>Instant Turkish-accent-insensitive search across all 3,301 words. Filter by All, Favorites, Learning, Mastered, or New status at 60fps.</p>
+                <div class="app-card-tags">
+                    <span class="chip-yellow">Leitner Boxes</span>
+                    <span class="chip-navy">Favorites</span>
+                </div>
+            </article>
+        </section>
+
+        <!-- Question Bank Features -->
+        <div class="section-header" id="question-bank">
+            <h2 class="section-title">4,224-Question YDS Question Bank</h2>
+            <p class="section-subtitle">Powered by an embedded SQLite database and instant MMKV progress tracking</p>
+        </div>
+
+        <section class="cards-grid">
+            <article class="app-card">
+                <div class="app-card-top">
+                    <span class="icon-box">📄</span>
+                    <h3>Past Official YDS Exams</h3>
+                </div>
+                <p>Solve 15 real ÖSYM YDS exams from 2018 through 2025 (1,200 questions total) in either full 180-minute Exam Mode or instant-answer Practice Mode.</p>
+                <div class="app-card-tags">
+                    <span class="chip-navy">2018 – 2025</span>
+                    <span class="chip-yellow">15 Exams × 80 Q</span>
+                </div>
+            </article>
+
+            <article class="app-card">
+                <div class="app-card-top">
+                    <span class="icon-box">⏱️</span>
+                    <h3>14 Full Practice Exams</h3>
+                </div>
+                <p>1,120 original 80-question mock exams with comprehensive step-by-step explanations, solution strategies, and per-question vocabulary glossaries.</p>
+                <div class="app-card-tags">
+                    <span class="chip-navy">180-Min Timer</span>
+                    <span class="chip-yellow">Auto-Save &amp; Resume</span>
+                </div>
+            </article>
+
+            <article class="app-card">
+                <div class="app-card-top">
+                    <span class="icon-box">🎯</span>
+                    <h3>11 Topic Categories</h3>
+                </div>
+                <p>Drill Reading Comprehension, Grammar, Vocabulary, Cloze Test, Sentence Completion, Translation, Paragraph Completion, Dialogue, Restatement, and Irrelevant Sentence.</p>
+                <div class="app-card-tags">
+                    <span class="chip-navy">20 Unsolved Mode</span>
+                    <span class="chip-yellow">Full Category Pool</span>
+                </div>
+            </article>
+
+            <article class="app-card">
+                <div class="app-card-top">
+                    <span class="icon-box">📊</span>
+                    <h3>Detailed Score &amp; Mistake Review</h3>
+                </div>
+                <p>View your 100-point YDS score, elapsed time, and category accuracy breakdown after every exam. Re-open only your mistakes or review all questions with solutions unlocked.</p>
+                <div class="app-card-tags">
+                    <span class="chip-navy">Mistakes Pool</span>
+                    <span class="chip-yellow">Saved Bookmarks</span>
+                </div>
+            </article>
+        </section>
+
+        <!-- Cross-Promotion: KPSS App -->
+        <div class="section-header">
+            <h2 class="section-title">More Exam Preparation Apps</h2>
+            <p class="section-subtitle">Also preparing for KPSS? Try our companion question bank on the App Store</p>
+        </div>
+
+        <section class="promo-card">
+            <div class="promo-left">
+                <span class="icon-box">🏛️</span>
+                <div>
+                    <h3>KPSS Soru Bankası &amp; Test 2026</h3>
+                    <p>Comprehensive question bank, subject tests, and mock exams for KPSS candidates on iOS.</p>
+                </div>
+            </div>
+            <a href="https://apps.apple.com/tr/app/kpss-soru-bankas%C4%B1-test-2026/id6832932397" target="_blank" rel="noopener" class="promo-btn">
+                Try KPSS App on the App Store →
+            </a>
+        </section>
     </main>
+
+    <footer class="site-footer">
+        <div class="footer-links">
+            <a href="https://apps.apple.com/tr/app/id6740161440" target="_blank" rel="noopener">App Store</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="mailto:sevinc.aeren@gmail.com">sevinc.aeren@gmail.com</a>
+            <a href="https://www.linkedin.com/in/alierensevinc" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/alierensevinc" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <p>YDS Kelime &amp; Soru Bankası • Developed by Ali Eren Sevinç</p>
+    </footer>
 </body>
-</html> 
+</html>
