@@ -382,6 +382,83 @@ a {
     margin-top: 4px;
 }
 
+/* App Store Showcase (Panoramic Pairs & Grid) */
+.store-showcase-pairs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-bottom: 24px;
+}
+
+.store-pair-card {
+    background-color: var(--text-primary);
+    border-radius: 24px;
+    padding: 10px;
+    box-shadow: var(--shadow);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.store-pair-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.35);
+}
+
+.store-pair-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+}
+
+/* Raw App Screenshots Horizontal Strip */
+.screenshots-strip {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 8px 4px 20px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.screenshots-strip::-webkit-scrollbar {
+    height: 8px;
+}
+
+.screenshots-strip::-webkit-scrollbar-track {
+    background: rgba(26, 82, 118, 0.25);
+    border-radius: 4px;
+}
+
+.screenshots-strip::-webkit-scrollbar-thumb {
+    background: var(--card-bg);
+    border-radius: 4px;
+}
+
+.shot-frame {
+    flex: 0 0 215px;
+    scroll-snap-align: start;
+    background-color: var(--text-primary);
+    padding: 8px;
+    border-radius: 26px;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.2s ease;
+}
+
+.shot-frame:hover {
+    transform: translateY(-4px);
+}
+
+.shot-frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+}
+
 /* Feature Cards Grid (2x2 layout) */
 .cards-grid {
     display: grid;
@@ -578,6 +655,10 @@ a {
     }
 
     .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .store-showcase-pairs {
         grid-template-columns: 1fr;
     }
 
