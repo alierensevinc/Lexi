@@ -382,10 +382,10 @@ a {
     margin-top: 4px;
 }
 
-/* Feature Cards Grid */
+/* Feature Cards Grid (2x2 layout) */
 .cards-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 18px;
 }
 
@@ -575,6 +575,10 @@ a {
 
     .stats-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
     }
 
     .nav-pill {
